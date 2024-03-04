@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="./imgs/favicon.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="logo">
+        <img width="175" height="64" src="imgs/quiz.png" alt="logo" class="logo-img">
+    </div>
+
+    <div class="quiz-btns">
+        <button class="start-btn">Lets go</button>
+        
+        <div class="questions-btns">
+            <button class="prev-btn">Previous question</button>
+            <button class="next-btn">Next question</button>
+            <button class="results-btn">Results</button>
+        </div>
+    </div>
+
+    <div class="question-holder">
+        <div class="question" data-q-number="1">
+            <div class="question__text">
+                <p>Ответьте пожалуйста на вопрос о кое чем очень важном пожалуйста? 1/4</p>
+            </div>
+            <div class="question__answers">
+                <label for="radio-11">
+                    <input type="radio" id="radio-11" name="group-1" value="true">
+                    <span class="answer">true</span>
+                </label>
+                <label for="radio-12">
+                    <input type="radio" id="radio-12" name="group-1" value="false">
+                    <span class="answer">false</span>
+                </label>
+                <label for="radio-13">
+                    <input type="radio" id="radio-13" name="group-1" value="false">
+                    <span class="answer">false</span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-q-number="2">
+            <div class="question__text">
+                <p>Ответьте пожалуйста на вопрос о кое чем очень важном пожалуйста? 2/4</p>
+            </div>
+            <div class="question__answers">
+                <label for="radio-21">
+                    <input type="radio" id="radio-21" name="group-2" value="false">
+                    <span class="answer">false</span>
+                </label>
+                <label for="radio-22">
+                    <input type="radio" id="radio-22" name="group-2" value="true">
+                    <span class="answer">true</span>
+                </label>
+                <label for="radio-23">
+                    <input type="radio" id="radio-23" name="group-2" value="false">
+                    <span class="answer">false</span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-q-number="3">
+            <div class="question__text">
+                <p>Ответьте пожалуйста на вопрос о кое чем очень важном пожалуйста? 3/4</p>
+            </div>
+            <div class="question__answers">
+                <label for="radio-31">
+                    <input type="radio" id="radio-31" name="group-3" value="true">
+                    <span class="answer">true</span>
+                </label>
+                <label for="radio-32">
+                    <input type="radio" id="radio-32" name="group-3" value="false">
+                    <span class="answer">false</span>
+                </label>
+                <label for="radio-33">
+                    <input type="radio" id="radio-33" name="group-3" value="false">
+                    <span class="answer">false</span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-q-number="4">
+            <div class="question__text">
+                <p>Ответьте пожалуйста на вопрос о кое чем очень важном пожалуйста? 4/4</p>
+            </div>
+            <div class="question__answers">
+                <label for="radio-41">
+                    <input type="radio" id="radio-41" name="group-4" value="false">
+                    <span class="answer">false</span>
+                </label>
+                <label for="radio-42">
+                    <input type="radio" id="radio-42" name="group-4" value="false">
+                    <span class="answer">false</span>
+                </label>
+                <label for="radio-43">
+                    <input type="radio" id="radio-43" name="group-4" value="true">
+                    <span class="answer">true</span>
+                </label>
+            </div>
+        </div>
+        <div class="repeat">
+            <button class="repeat__btn">
+                Пройти снова?
+            </button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

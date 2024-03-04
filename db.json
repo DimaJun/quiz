@@ -1,0 +1,20 @@
+{
+    "questions": [
+        { 
+            "id": "1",
+            "rightAnswer": "false"
+        },
+        { 
+            "id": "2",
+            "rightAnswer": "true"
+        },
+        { 
+            "id": "3",
+            "rightAnswer": "false"
+        },
+        { 
+            "id": "4",
+            "rightAnswer": "true"
+        }
+    ]
+}

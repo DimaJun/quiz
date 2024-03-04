@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 15px;
+}
+
+.quiz-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+
+    font-size: 18px;
+    
+    background-color: black;
+    color: white;
+    display: block;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.questions-btns {
+    display: none;
+    gap: 15px;
+}
+.next-btn,
+.prev-btn {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+
+    font-size: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+
+    display: block;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.results-btn {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+
+    font-size: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+
+    display: none;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.next-btn:hover,
+.prev-btn:hover,
+.start-btn:hover,
+.results-btn:hover {
+    cursor: pointer;
+    background-color: black;
+
+    transform: scale(1.03);
+}
+
+.next-btn:active,
+.prev-btn:active,
+.start-btn:active,
+.results-btn:active {
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.question-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.question {
+    width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.question__text { 
+    padding: 0 25px 0 25px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 21px;
+
+    line-height: 30px;
+}
+
+.question__answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label[for^="radio-"] {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.answer {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+
+.results__text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.repeat__btn {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+
+    font-size: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.repeat__btn:hover {
+    cursor: pointer;
+    background-color: black;
+
+    transform: scale(1.03);
+}
+
+.repeat__btn:active {
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.error-message {
+    display: flex;
+    justify-content: center;
+
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
